@@ -2,11 +2,8 @@
 
 The reactor is equipped with two essential components known as reactor trip breakers. These breakers play a critical role in the safe operation of the system. When power is removed from either one of these breakers, it effectively de-energizes the control rod drive mechanisms (CRDM), leading to the gravity-driven insertion of the control rods into the core.
 
-## Tripping the Reactor:
-In the event that a reactor trip is required, it is necessary to set the switch of any trip breaker to the "TRIP" position. This action promptly de-energizes the CRDMs, causing the control rods to descend into the core by means of gravity. Once the trip is complete and all the control rods are fully inserted, the trip breaker can be re-energized by setting the switch to the "IN" position.
-
-## Automatic Reactor Trip:
-During an automatic reactor trip, it is crucial to note that both reactor trip breakers will open simultaneously, ensuring the safety and proper functioning of the system.
+## Reactor Trip:
+When a reactor trip signal is sent for any reason, it is crucial to note that both reactor trip breakers will open simultaneously, ensuring the safety and proper functioning of the system.
 
 ## Monitoring Trip Breaker Status:
 The position of a reactor trip breaker can be easily determined by observing the lights located above the switch. A red light indicates that the breaker is in the open position, while a green light signifies that it is closed. The Bypass breakers should never be closed during normal operation.
