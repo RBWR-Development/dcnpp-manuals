@@ -5,4 +5,6 @@ Each PRM is positioned between four rods, enabling it to capture and display the
 
 By monitoring and analyzing the data provided by the PRMs, operators can effectively manage and optimize the reactor's power output. The PRMs contribute significantly to the overall control and stability of the reactor system, ensuring the safe and efficient operation of the power plant.
 
-[PRM Distribution](rbxassetid://13800056637)
+![PRM Distribution](rbxassetid://13800056637)
+
+![Test](https://tr.rbxcdn.com/c910f27e8bc52da111d6cbeaceff1179/420/420/Image/Png)
