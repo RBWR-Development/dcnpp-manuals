@@ -18,4 +18,4 @@ In order to boil water, the evaporator has to be heated up with steam from the s
 
 # Transferring
 
-Water and boric acid can now be transferred to their tanks for further use with transfer pumps which will move them into the main tanks.
+Water and boric acid can now be transferred to their tanks for further use with transfer pumps which will move them into the main tanks. It is important to maintain enough water and boric acid in the main tanks to be able to operate the system at all time. Boric acid is vital as during scram procedure it would be injected into the primary circuit automatically to help suppress the reactivity along with the rods.
