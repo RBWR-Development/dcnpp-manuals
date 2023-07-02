@@ -6,11 +6,11 @@ A pressurizer is a device located on the hot leg of the left part of primary cir
 
 # What affects pressure
 
-Pressure will be affected by several parameters:
+Pressure will be affected by several factors:
 
 - amount of steam
 - temperature of steam
-- volume of the steam
+- volume of steam
 
 The amount of steam will depend on the boiling of the water. Whenever the water in the pressurizer reaches its boiling point (which is defined by pressure), it will boil, adding some steam and reducing the water level. The temperature of steam mainly depends on the temperature of water in the primary, although it is possible to increase this temperature with pressurizer heaters. The volume of steam will depend on the water level inside the pressurizer. The water level will naturally expand during heating, increasing its level, but it will also drop due to boiling. Steam can also be changed back into water with the use of a water spray. Finally, makeup and drain valves are available to maintain proper water level.
 
