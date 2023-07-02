@@ -21,3 +21,7 @@ During startup, primary water will be heated by the PZR HEATER S and later on by
 # Normal operations
 
 Typically, the primary circuit will work at around 300 degrees with a pressure of 12 MPa. Usually, when enough pressure is built, heaters can be disabled. The pressurizer doesn't require a lot of attention, but if a higher operational temperature is required, additional steam can be added to the system with the heaters. Another way to control pressure would be to change the water level with makeup and drain valves. Caution is required when using them, as they can affect pressure strongly because the volume of the steam is quite small. If, for any reason, pressure becomes too high, water spray can be used. It will cause rapid condensation of the steam, reducing pressure but also increasing the water level.
+
+# Operation during isolation of the left leg
+
+If the left leg is isolated, pressurizer becomes cut of from the system. Temperature therefore can be increased with heaters independently of the core but the pressure doesn't affect primary anymore. It is assumed that primary system works under it's own water pressure independently of the pressurizer pressure.
