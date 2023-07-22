@@ -21,7 +21,7 @@ From this moment when core is satisfactory balanced, no more rods' movement shou
 
 ## Turbine run-up
 
-The turbine is started with TURBINE STOP switch. Initially, the turbine valve should be opened to around 5% and bypass closed accordingly to maintain a constant pressure of 70 bars. If done correctly, this should have no impact on the reactor, although small adjustments with boron concentration could be required. Maintaining constant pressure in the secondary is crucial to keep the reactor stable. Once turbine RPM reach around 3600, turbine valve will have to be closed to maintain this value while bypass again opened to maintain pressure. Turbine should be synced at 3600 RPM with synchroscope pointing top. After synchronization, bypass can be closed and turbine valve should be adjusted to maintain constant pressure of 70 bars.
+The turbine is started with TURBINE STOP switch. Initially, the turbine valve should be opened to around 5% and bypass closed accordingly to maintain a constant pressure of 70 bars. If done correctly, this should have no impact on the reactor, although small adjustments with boron concentration could be required. Maintaining constant pressure in the secondary is crucial to keep the reactor stable. Once turbine RPM reaches around 3600, turbine valve will have to be closed to maintain this value while bypass again opened to maintain pressure. Turbine should be synced at 3600 RPM with synchroscope pointing top. After synchronization, bypass can be closed and turbine valve should be adjusted to maintain constant pressure of 70 bars.
 
 ## Meeting network demand
 
