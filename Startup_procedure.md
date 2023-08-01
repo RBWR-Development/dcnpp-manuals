@@ -29,6 +29,10 @@ PWR reactor physics work in a way, where steam demand should automatically adjus
 
 This whole process has one drawback, which is higher temperature in the hot leg of the primary circuit. If we started the process at 300 degrees, we still can let the temperature increase, although 320 degrees is the maximum allowed in the primary with 150 bars of pressure. Therefore, we should adjust RCP flow to maintain constant operational temperature.
 
+On the other hand primary coolant flow can also be used to adjust generator load. Assuming the same conditions, if RCP flows are increased more hot water in the steam generators will cause more steam production. Higher flow will cool the reactor which will induce natural feedback raising power. Therefore the reactor power will adjust to this process of more steam generation, which will produce more load on the generator. This process also has a drawback as now the pressure in the secondary will be higher. Therefore in order to maintain the pressure, turbine valve will have to be adjusted.
+
+To summarize. Two processes are used to change the generator load. One which is changing the turbine valve the other one is changing the primary circuit flow. Both should be used at the same time to maintain both pressure in the secondary and core temperature withing the operational limits. Reactor power should self adjust to these changes although it might act as an pendulum swinging back and forth around the new power of balance. Therefore small adjustments to the reactor power should be made to dampen these oscillations and boron injection/dillusion should be the main tool to achieve this.
+
 ## Shutting down
 
 TO BE WRITTEN
