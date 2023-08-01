@@ -25,3 +25,5 @@ Typically, the primary circuit will work at around 300 degrees with a pressure o
 # Operation during isolation of the left leg
 
 If the left leg is isolated, pressurizer becomes cut of from the system. Temperature therefore can be increased with heaters independently of the core but the pressure doesn't affect primary anymore. It is assumed that primary system works under it's own water pressure independently of the pressurizer pressure. This is so called 'running solid' where expanding water will automatically increase pressure above boiling point independent of the pressurizer. It is therefore possible to temporarily run the reactor only on the right part of primary cooling system with one steam generator.
+
+On the other hand if the right leg is isolated leaving pressurizer connected to the reactor the whole system will behave normally of course withouth possbility to use of the right steam generator.
