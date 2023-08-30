@@ -14,7 +14,7 @@ Reactor can trip for many different reasons also a manual trip can be initiated.
 
 ## Latching the rods
 
-Whenever trip happens, rods need to be latched back. In order to do that, latching switch needs to be enabled and then all unlatched rods need to be pushed back with insert mode of reactor control. There is no indication of which rods are unlached but it's obvious for those which can't be pulled in IPR/RUN modes. No rods can be pulled in the latching mode.
+At the game start and whenever trip happens, rods need to be latched back. In order to do that, latching voltage switch needs to be enabled and then all unlatched rods need to be pushed back with insert mode of reactor control. There is no indication of which rods are unlached but it's obvious for those which can't be pulled in IPR/RUN modes. No rods can be pulled in the latching mode.
 
 ## Shutdown mode
 
