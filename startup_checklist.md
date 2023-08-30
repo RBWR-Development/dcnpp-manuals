@@ -20,17 +20,17 @@
 - Bypass - as required to maintain 50-70 bars in secondary
 - When core temp>280 degrees set cooling pumps as required to maintain 280-300 degrees
 - Check secondry parameters and adjust setting accordingly:
-* SG levels at 50%
-* pressure 50-70 bar
-* condenser pressure 50-70 mbar
+ SG levels at 50%
+ pressure 50-70 bar
+ condenser pressure 50-70 mbar
 - Latch and start pulling rods to around 50-70%
 - When rods stopped at 50-70%:
-* if SUR drops below 0.5, dilute water to keep SUR~0.5 constant
-* if SUR raises too much, borate water to keep SUR~0.5 constant
+ if SUR drops below 0.5, dilute water to keep SUR~0.5 constant
+ if SUR raises too much, borate water to keep SUR~0.5 constant
 - IPR increment as required
 - at IPR 10:
-* reactor switch to run mode
-* disable PZR S heater
+ reactor switch to run mode
+ disable PZR S heater
 - Push rods back to maintain constant ~480MWt power
 - Reduce cooling to maintain 280-300 core temp
 - Adjust SG feedwater pumps and bypass
