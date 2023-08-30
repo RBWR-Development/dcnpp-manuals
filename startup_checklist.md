@@ -25,13 +25,13 @@
   - condenser pressure 50-70 mbar
 - Latch and start pulling rods to around 50-70%
 - When rods stopped at 50-70%
-  - if SUR drops below 0.5, dilute water to keep SUR~0.5 constant
-  - if SUR raises too much, borate water to keep SUR~0.5 constant
+  - if SUR drops below 0.5, dilute water to keep SUR 0.5 constant
+  - if SUR raises too much, borate water to keep SUR 0.5 constant
 - IPR increment as required
 - at IPR 10:
   - reactor switch to run mode
   - disable PZR S heater
-- Push rods back to maintain constant ~480MWt power
+- Push rods back to maintain constant 480MWt power
 - Reduce cooling to maintain 280-300 core temp
 - Adjust SG feedwater pumps and bypass
 - Turbine TRIP reset
@@ -40,7 +40,7 @@
 - At 3500 RPM synchroscope enabled
 - Sync turbine at 3600 RPM with Gen-1 BRK closed
 - Synchroscope disabled
-- Turbine valve open to reach ~150 MWe load
+- Turbine valve open to reach 150 MWe load
 - Monitor reactor power and primary core temperature, adjust accordingly
 - Electrical feedwater pumps disable
 - Steam driven feedwater pumps enable and adjust to maintain 50% SG level
