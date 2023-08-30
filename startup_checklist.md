@@ -15,7 +15,7 @@
 - Open bypass to around 30%
 - Both CAR enabled
 - SJAE x2 enabled at 100%
-- Condenser recirc pumps both enabled at around 10%
+- Condenser recirc pumps both enabled at around 30%
 - Keep condenser pressure 50-70 mbar
 - Bypass - as required to maintain 50-70 bars in secondary
 - When core temp>280 degrees set cooling pumps as required to maintain 280-300 degrees
