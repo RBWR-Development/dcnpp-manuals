@@ -10,7 +10,7 @@ Top part of the diagram correponds to the shutdown rods. They need to be fully p
 
 ## Reactor trip
 
-Reactor can trip for many different reasons also a manual trip can be initiated. Two types of trips are possible. Group trip or full trip. In group trip all rods fall down under gravity into the core, while in group trip only shutdown rods are affected. After trip rods need to be relatched.
+Reactor can trip for many different reasons also a manual trip can be initiated. Two types of trips are possible. Group trip or full trip. In full trip all rods fall down under gravity into the core, while in group trip only shutdown rods are affected. After trip rods need to be relatched.
 
 ## Latching the rods
 
