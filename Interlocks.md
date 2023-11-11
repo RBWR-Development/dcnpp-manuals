@@ -1,0 +1,111 @@
+## Interlocks
+Bloxinghouse Pressurized Water Reactors (PWRs) incorporate two distinct categories of interlocks:
+
+1. Protection-Grade Interlocks (indicated by P-#)
+2. Control-Grade Interlocks (indicated by C-#)
+
+These interlocks are specifically engineered to safeguard the unit in defined situations that do not necessitate a reactor trip.
+
+### Protection-Grade Interlocks (P-#)
+- **P-4** | "REACTOR TRIP BREAKER CONTACT"
+    - SETPOINT:
+        - Open if CRDMs powered
+        - Closed if CRDMs unpowered.
+    - FUNCTIONS:
+        - Trips main turbine
+        - Isolates main feedwater
+        - Input to SI block and reset logic
+- **P-6** | "SOURCE RANGE BLOCK PERMISSIVE"
+    - SETPOINT:
+        - Intermediate Range Power > 10⁻¹⁰ amps
+    - FUNCTIONS:
+        - Enables BLOCK/RESET switches to allow operator to block SR high flux trip.
+- **P-7** | "AT-POWER PERMISSIVE"
+    - SETPOINT:
+        - Power < 10%
+    - FUNCTIONS:
+        - Automatically blocks the "at-power" trips:
+            - PZR PRESS LOW
+            - PZR LEVEL HIGH
+            - ALL RCS FLOW LOW
+            - TURBINE TRIP
+- **P-8** | "1-LOOP FLOW PERMISSIVE"
+    - SETPOINT:
+        - Power Range Power < 39%
+    - FUNCTIONS:
+        - Automatically blocks the SINGLE LOOP FLOW LOW reactor trip.
+- **P-9** | "TURBINE TRIP/REACTOR TRIP PERM."
+    - SETPOINT:
+        - Power Range Power < 50%
+    - FUNCTIONS:
+        - Blocks reactor trip on turbine trip below 50%
+- **P-10** | "NUCLEAR AT-POWER BLOCK PERMISSIVE"
+    - SETPOINT:
+        - Power Range Power > 10%
+    - FUNCTIONS:
+        - Opens contacts to SR high voltage power supply
+        - Enables BLOCK switches to allow operator to block IR high flux trip and rod stop.
+        - Input to P-7
+- **P-11** | "LOW PZR PRESS SI BLOCK PERMISSIVE"
+    - SETPOINT:
+        - PZR Pressure < 130 bar
+    - FUNCTIONS:
+        - Enables BLOCK switches to sllow operator to block low PZR pressure SI actuation
+        - Removal of permissive provides open signal to CLA isolation valves
+- **P-12** | "HIGH STEAM FLOW SI PERMISSIVE"
+    - SETPOINT:
+        - Tavg < 289°C
+    - FUNCTIONS:
+        - Enables BLOCK switches to allow operator to block high steam flow ESF actuation.
+        - Input to high steam flow ESF actuation logic.
+- **P-13** | "TURBINE AT-POWER PERMISSIVE"
+    - SETPOINT:
+        - Turbine power < 10%
+    - FUNCTIONS:
+        - Input to P-7
+- **P-14** | "SG HIGH LEVEL OVERRIDE"
+    - SETPOINT:
+        - Steam generator level > 69%
+    - FUNCTIONS:
+        - Closes MFW regulating valves
+        - Trips all main feed pumps
+        - Trips main turbine
+        - Closes all MFW isolation valves
+
+### Control-Grade Interlocks (C-#)
+- **C-1** | "IPRM HIGH FLUX ROD STOP"
+    - SETPOINT:
+        - IPRM power > equivilant to 20% power
+    - FUNCTIONS:
+        - Stops control rod outward motion (manual & automatic)
+    - INTERLOCKS:
+        - Blocked when IR trip is blocked.
+- **C-2** | "POWER RANGE HIGH FLUX ROD STOP"
+    - SETPOINT:
+        - Power range power > 103%
+    - FUNCTIONS:
+        - Stops control rod outward motion (manual & automatic)
+    - INTERLOCKS:
+        - None
+- **C-5** | "LOW POWER INTERLOCK"
+    - SETPOINT:
+        - Turbine power < 15%
+    - FUNCTIONS:
+        - Stops control rod outward motion in automatic only.
+    - INTERLOCKS:
+        - None
+- **C-9** | "CONDENSER AVAILABLE INTERLOCK"
+    - SETPOINT:
+        - Condenser vacuum > 0.7bar
+        - Condenser circ pump breaker closed
+    - FUNCTIONS:
+        - Ensures condenser is available for steam dump operation
+    - INTERLOCKS:
+        - None
+- **C-11** | "BANK D WITHDRAWAL INTERLOCK"
+    - SETPOINT:
+        - Bank D position > 223 steps
+    - FUNCTIONS:
+        - Stops outward rod motion in automatic only
+    - INTERLOCKS:
+        - None
